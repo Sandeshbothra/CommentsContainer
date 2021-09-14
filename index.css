@@ -1,0 +1,57 @@
+.comment-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.comment-creation-container{
+    display: flex;
+    justify-content: center;
+}
+#comments{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    align-self: center;
+    width: 50%;
+}
+
+#comments li{
+    width: 100%;
+    padding: 10px;
+}
+
+.avtar{
+    float: left;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 5vh;
+}
+
+.orange{
+    background-color: orange;
+}
+
+.teal{
+    background-color: teal;
+}
+
+.green{
+    background-color: palegreen;
+}
+
+.comment-action{
+    position: relative;
+    margin-top: 15px;
+}
+
+.comment-action > div{
+    float: left;
+    width: 25px;
+    height: 25px;
+    color: #999;
+    cursor: pointer;
+}
